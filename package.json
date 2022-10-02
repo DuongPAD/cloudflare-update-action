@@ -1,0 +1,24 @@
+{
+  "name": "cloudflare-update-action",
+  "version": "1.0.0",
+  "description": "Update DNSLink on cloudflare github action",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "ncc build index.ts"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "axios": "^0.27.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.8.0",
+    "@vercel/ncc": "^0.33.1",
+    "typescript": "^4.8.4"
+  }
+}
